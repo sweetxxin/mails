@@ -4,7 +4,7 @@ public class Constants {
     public static final String SERVER_IP = "182.254.184.103";
     public static final String DB_NAME = "mail";
     public static final String DB_USER="root";
-    public static final String DB_PASSWORD="";
+    public static final String DB_PASSWORD="root";
     public static final String DB_URL="jdbc:mysql://"+SERVER_IP+":3306/"+DB_NAME+"?useUnicode=true&characterEncoding=UTF-8&useSSL=false";
     public static final String JDBC_DRIVE = "com.mysql.jdbc.Driver";
     public static final String STATIC_RESOURCES_PATH = "http://"+SERVER_IP+":8080/mails/static";
