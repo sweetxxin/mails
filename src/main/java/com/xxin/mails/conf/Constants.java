@@ -1,7 +1,7 @@
 package com.xxin.mails.conf;
 
 public class Constants {
-    public static final String SERVER_IP = "localhost";
+    public static final String SERVER_IP = "182.254.184.103";
     public static final String DB_NAME = "mail";
     public static final String DB_USER="root";
     public static final String DB_PASSWORD="";
