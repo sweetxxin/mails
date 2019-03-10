@@ -7,6 +7,10 @@
 <div class="panel panel-primary panel-div">
     <div class="panel-heading">
         <h3 class="panel-title">收件箱</h3>
+        <ul class="dropdown-menu">
+            <li><button  type="button" class="btn btn-default btn-pic">本地图片</button></li>
+            <li><button type="button"  class="btn btn-default btn-pic">网络图片</button></li>
+        </ul>
     </div>
     <jsp:include page="common/table.jsp"/>
 </div>

@@ -76,7 +76,7 @@ public class UserController extends HttpServlet {
             }
         }else {
             resultUtil.setCode(Constants.RESPONSE_FAIL);
-            resultUtil.setMsg("绑定出错");
+            resultUtil.setMsg("绑定出错,请检查邮箱或者密码是否正确");
         }
         return  JsonUtil.objectToJson(resultUtil);
     }
